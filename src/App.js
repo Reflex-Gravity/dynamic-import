@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles.css";
 import importLazy from "./utilities/DynamicImport";
 const lib = importLazy(() => import("./utilities/lib"));
 
